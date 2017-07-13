@@ -61,6 +61,13 @@ h1 {
   h1 {
     font-size: 55px;
   }
+  .main-logo {
+    background-color: red;
+    width: 140px;
+    padding: 10px 5px 0px 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
 }
 
 h1, h2 {
@@ -145,6 +152,6 @@ html,body {
 
 .title-item {
   margin: 0 auto;
-  max-width: 520px;
+  max-width: 550px;
   position: relative;
 }
