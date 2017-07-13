@@ -38,6 +38,7 @@ app.configure(function() {
 //For gravatar images
 //hash md5
 var pictureHash = md5(process.env.EMAIL_ADDRESS);
+var sharecode = process.env.EMAIL_ADDRESS;
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -45,7 +46,8 @@ app.set('port', (process.env.PORT || 5000));
 app.get('/', function(req, res) {
     res.render('index', {
         title: 'Home',
-        picHash: pictureHash
+        picHash: pictureHash,
+        sharecode: sharecode
     });
 });
 

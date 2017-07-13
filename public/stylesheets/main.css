@@ -25,14 +25,12 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
-.ddLogo {
-  height: 87px;
-  width: 115px;
-}
-
-.ddLogoText {
-  height: 35px;
-  width: 240px;
+.main-logo {
+  background-color: red;
+  width: 280px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 25px;
 }
 
 h1 {
@@ -43,31 +41,25 @@ h1 {
   h1 {
     font-size: 60px;
   }
-  .ddLogo {
-    height: 87px;
-    width: 115px;
-  }
-  .ddLogoText {
-    height: 35px;
-    width: 190px;
+  .main-logo {
+    background-color: red;
+    width: 153px;
+    padding: 10px 5px 0px 5px;
+    margin-top: 25px;
+    margin-left: 25px;
   }
   .main-text,
   .testimonial-item p {
     font-size: x-large !important;
+  }
+  .link {
+    font-size: 20px !important;
   }
 }
 
 @media (max-width: 400px) {
   h1 {
     font-size: 55px;
-  }
-  .ddLogo {
-      height: 60px;
-      width: 70px;
-  }
-  .ddLogoText {
-    height: 16px;
-    width: 120px;
   }
 }
 
@@ -142,7 +134,7 @@ span.important {
 }
 
 html,body {
-  background-image: url(../hamburger.svg);
+  background-image: url(../ThinkingOfYou_Version2.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -153,6 +145,6 @@ html,body {
 
 .title-item {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 520px;
   position: relative;
 }
